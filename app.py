@@ -1,3 +1,5 @@
+import nltk
+nltk.download('stopwords')
 import streamlit as st
 from modules.preprocess import clean_text
 from modules.sentiment import get_sentiment
